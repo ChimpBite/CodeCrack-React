@@ -1,0 +1,40 @@
+.code-sum {
+  margin: 0 auto;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+  margin-bottom: 0.25rem;
+  width: 30%;
+}
+
+.code-product {
+  margin: 0 auto;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+  margin-bottom: 0.25rem;
+  width: 30%;
+}
+
+.p-code {
+  margin: 0 auto;
+  margin-bottom: -0.1rem;
+  width: 30%;
+}
+
+@media (max-width: 550px) {
+  .p-code {
+    margin-bottom: -0.1rem;
+    width: 100%;
+  }
+
+  .code-sum {
+    width: 100%;
+  }
+
+  .code-product {
+    width: 100%;
+  }
+}

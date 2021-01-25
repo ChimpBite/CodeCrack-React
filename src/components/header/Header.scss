@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  background-color: #242333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  background: -webkit-linear-gradient(#f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
